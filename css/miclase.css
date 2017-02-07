@@ -7,12 +7,23 @@
 
 .menu{margin-right:10%;width:100%}
 
- body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-  }
+.imagen{height:64px !important}
 
-  main {
-    flex: 1 0 auto;
-  }
+.tit{font-size:3.8em;color:green}
+
+ .card-tittle .card-content {
+  display: none;
+  height:100%;
+/* font-size: 18px !important; */
+font-weight: inherit;
+background-color:green;
+}
+
+#ensaladas .card .card-reveal {background-color:rgba(0,77,64,0.9);color: white;font-size:18px ;}
+#principales .card .card-reveal {background-color:rgba(244,67,54,0.9);color: white;font-size:18px ;}
+#postres .card .card-reveal {background-color:rgba(158,158,158,0.9);color: white;font-size:18px ;}
+#ensaladas,#principales,#postres .card .card-title {
+    font-size: 28px;
+    font-weight: 300;
+	color: white !important;
+}
