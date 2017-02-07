@@ -1,0 +1,18 @@
+.parriba{text-align:center;margin-top:0px;}
+
+.otraclase{border: 1px solid #eee;height:80px;}
+
+.clasespan{text-align:center;display: block;width: 100%;}
+
+
+.menu{margin-right:10%;width:100%}
+
+ body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
