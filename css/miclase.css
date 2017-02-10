@@ -5,7 +5,7 @@
 .clasespan{text-align:center;display: block;width: 100%;}
 
 
-.menu{margin-right:10%;width:100%}
+.menu{margin-right:10%;width:100%;z-index:1}
 
 .imagen{height:64px !important}
 
@@ -14,7 +14,7 @@
  .card-tittle .card-content {
   display: none;
   height:100%;
-/* font-size: 18px !important; */
+ font-size: 15px !important; 
 font-weight: inherit;
 background-color:green;
 }
@@ -27,3 +27,17 @@ background-color:green;
     font-weight: 300;
 	color: white !important;
 }
+
+.fixed-action-btn.horizontal ul li {
+    display: inline-block;
+    margin: 8px 8px 0 0; 	
+}
+.alinea{text-align:center}
+h2, li a.btn-floating{text-shadow: 4px 4px 0px rgba(0, 0, 0, 1);}
+p:hover{color:blue}
+
+
+.submenu li{float:none;background-color:grey}
+.submenu{position:absolute;opacity:0;z-index:100;transition:all .4s ease .15s;visibility:hidden}
+
+.desplegable:hover .submenu {opacity:1;visibility:visible}

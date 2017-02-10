@@ -1,6 +1,6 @@
 <!DOCTYPE html>
   <html lang="es-ES"><!-- idioma página -->
-  <title>RESTA</title>
+  <title>TakeAway</title>
   <meta charset="utf-8"><!-- acentos  -->
     <head>
       <!--Import Google Icon Font-->
@@ -17,17 +17,33 @@
       <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
       <script type="text/javascript" src="js/materialize.min.js"></script>
 			   
-			   <div class="navbar-fixed">
+			   <div class="navbar-fixed" style="z-index:1000">
 				<nav>
 				  <div class="nav-wrapper blue lighten-1 ">
 					<!-- <a href="img/logo.png" class="brand-logo">TakeAway</a> -->
 					<img src="img/logo.png" alt="" class="circle responsive-img imagen "><span class="tit">TakeAway</span></img>
 					
 					<ul class="right /*hide-on-med-and-down*/">
+					 					 
+					  <li class="desplegable">
+						<a href="index.html">Inicio</a>
+							<ul class="submenu" >
+							  <li><a href="#">Ensaladas</a></li>
+							  <li><a href="#">Principales</a></li>
+							  <li><a href="#">Postres</a></li>
+							</ul>
+					  </li>
 					  
-					 
-					  <li><a href="inicio.html">Inicio</a></li>
-					  <li><a href="info.html">Info</a></li>
+					  <li class="desplegable">
+						<a href="index.html">Info</a>
+							<ul class="submenu" >
+							  <li><a href="#">111111111</a></li>
+							  <li><a href="#">222222222</a></li>
+							  <li><a href="#">333333333</a></li>
+							</ul>
+					  </li>
+
+					  
 					  <li><a href="fotos.html">Fotos</a></li>
 					</ul>
 				  </div>
@@ -37,17 +53,34 @@
 				<section id="ensaladas">
 					<h2 class="center-align green">Ensaladas</h2>
 				<div class="row">
-						<div class="col s12 m6 l3">														
+						
+					<div class="col s12 m6 l3">														
 							  <div class="card">
 								<div class="card-image waves-effect waves-block waves-light">
-								  <img class="activator" src="img/ensaladalentejas.jpg">
+								  <img class="activator" src="img/ensaladalentejas.jpg">								  
 								</div>
+								
 								<div class="card-content">
-								  <span class="card-title activator grey-text text-darken-4">Ensalada de lentejas<i class="material-icons right">more_vert</i></span>
-								  <p><a href="#">This is a link</a></p>
+								  <span class="card-title activator grey-text text-darken-4">Ensalada de lentejas<i class="material-icons right"></i></span>
+								<p><a href="#"><br><br></a></p> 
+								
+									<div class="fixed-action-btn horizontal" style="position: absolute; display: inline-block; right: 24px; ">
+										<a class="btn-floating btn-large red">
+										  <i class="medium material-icons">shopping_basket</i>
+										</a>
+										<ul>
+										  <li><a class="btn-floating red center">X1</a></li>
+										  <li><a class="btn-floating yellow darken-1 center">X2</a></li>
+										  <li><a class="btn-floating green alinea">X3</a></li>
+										  <li><a class="btn-floating blue alinea">X4</a></li>
+										</ul>
+									 </div>
+        
 								</div>
+								
+								
 								<div class="card-reveal">
-								  <span class="card-title grey-text text-darken-4">Ensalada de lentejas<i class="material-icons right">close</i></span>
+								  <span class="card-title white-text">Ensalada de lentejas<i class="material-icons right">close</i></span>
 								  <p>Peso 200 gr.Condiciones de uso Abrir, dejar reposar 5 minutos y consumir.Condiciones de almacenamiento.Convervar entre 0 y 4ºC
 									Descripción Ensalada muy fresca y completa a base de lentejas, fuente de proteínas vegetales sin colesterol y hierro. Acompañada con hortalizas y condimentada con vinagre de sidra que enriquece el plato. Puedes acompañarla con zumo de naranja o fruta fresca que contiene vitamina C y ayuda a absorber mejor el hierro.</p>
 								</div>
@@ -61,11 +94,24 @@
 								  <img class="activator" src="img/ensaladaarroz.jpg">
 								</div>
 								<div class="card-content">
-								  <span class="card-title activator grey-text text-darken-4">Ensalada de arroz<i class="material-icons right">more_vert</i></span>
-								  <p><a href="#">This is a link</a></p>
+								  <span class="card-title activator grey-text text-darken-4">Ensalada de arroz<i class="material-icons right"></i></span>
+								  <p><a href="#"><br><br></a></p> 
+								
+									<div class="fixed-action-btn horizontal" style="position: absolute; display: inline-block; right: 24px; ">
+										<a class="btn-floating btn-large red">
+										  <i class="medium material-icons">shopping_basket</i>
+										</a>
+										<ul>
+										  <li><a class="btn-floating red alinea">X1</a></li>
+										  <li><a class="btn-floating yellow darken-1 alinea">X2</a></li>
+										  <li><a class="btn-floating green alinea">X3</a></li>
+										  <li><a class="btn-floating blue alinea">X4</a></li>
+										</ul>
+									 </div>
+        
 								</div>
 								<div class="card-reveal">
-								  <span class="card-title grey-text text-darken-4">Ensalada de arroz<i class="material-icons right">close</i></span>
+								  <span class="card-title white-text">Ensalada de arroz<i class="material-icons right">close</i></span>
 								  <p>
 
 										Peso
@@ -90,11 +136,25 @@
 								  <img class="activator" src="img/ensaladacuscus.jpg">
 								</div>
 								<div class="card-content">
-								  <span class="card-title activator grey-text text-darken-4">Ensalada de cuscus<i class="material-icons right">more_vert</i></span>
-								  <p><a href="#">This is a link</a></p>
+								  <span class="card-title activator grey-text text-darken-4">Ensalada de cuscus<i class="material-icons right"></i></span>
+								  <p><a href="#"><br><br></a></p> 
+								  
+								  <div class="fixed-action-btn horizontal" style="position: absolute; display: inline-block; right: 24px; ">
+										<a class="btn-floating btn-large red">
+										  <i class="medium material-icons">shopping_basket</i>
+										</a>
+										<ul>
+										  <li><a class="btn-floating red alinea">X1</a></li>
+										  <li><a class="btn-floating yellow darken-1 alinea">X2</a></li>
+										  <li><a class="btn-floating green alinea">X3</a></li>
+										  <li><a class="btn-floating blue alinea">X4</a></li>
+										</ul>
+									 </div>
+								  
+								  
 								</div>
 								<div class="card-reveal">
-								  <span class="card-title grey-text text-darken-4">Ensalada de cuscus<i class="material-icons right">close</i></span>
+								  <span class="card-title white-text">Ensalada de cuscus<i class="material-icons right">close</i></span>
 								  <p>
 
 										Peso
@@ -119,11 +179,23 @@
 								  <img class="activator" src="img/ensaladarusa.jpg">
 								</div>
 								<div class="card-content">
-								  <span class="card-title activator grey-text text-darken-4">Ensaladilla rusa<i class="material-icons right">more_vert</i></span>
-								  <p><a href="#">This is a link</a></p>
+								  <span class="card-title activator grey-text text-darken-4">Ensaladilla rusa<i class="material-icons right"></i></span>
+								  <p><a href="#"><br><br></a></p> 
+								  
+								  <div class="fixed-action-btn horizontal" style="position: absolute; display: inline-block; right: 24px; ">
+										<a class="btn-floating btn-large red">
+										  <i class="medium material-icons">shopping_basket</i>
+										</a>
+										<ul>
+										  <li><a class="btn-floating red alinea">X1</a></li>
+										  <li><a class="btn-floating yellow darken-1 alinea">X2</a></li>
+										  <li><a class="btn-floating green alinea">X3</a></li>
+										  <li><a class="btn-floating blue alinea">X4</a></li>
+										</ul>
+									 </div>
 								</div>
 								<div class="card-reveal">
-								  <span class="card-title grey-text text-darken-4 ">Ensaladilla rusa<i class="material-icons right">close</i></span>
+								  <span class="card-title white-text">Ensaladilla rusa<i class="material-icons right">close</i></span>
 								  <p class="deactivator">
 
 										Peso
@@ -260,31 +332,35 @@
 				</div>
 			
 				</section>
-				
+			
 				
 				<!-- /*postre*/ -->
-				<section id="postres">
-					<h2 class="center-align grey">Postre</h2>
+				<section id="principales">
+					<h2 class="center-align red">Postres</h2>
 				<div class="row">
 						<div class="col s12 m6 l3">														
 							  <div class="card">
 								<div class="card-image waves-effect waves-block waves-light">
 								  <img class="activator" src="img/yogur.jpg">
 								</div>
-								<div class="card-content ">
+								<div class="card-content">
 								  <span class="card-title activator grey-text text-darken-4">Yogur<i class="material-icons right">more_vert</i></span>
 								  <p><a href="#">This is a link</a></p>
 								</div>
 								<div class="card-reveal">
-								  <span class="card-title grey-text text-darken-4">Yogur<i class="material-icons right">close</i></span>
+								  <span class="card-title grey-text text-darken-4">Garbanzos<i class="material-icons right">close</i></span>
 								  <p>
 
-									Peso
-										0 gr
-									Condiciones de uso
-										Abrir, dejar reposar 5 minutos y consumir.
-									Condiciones de almacenamiento
-										Convervar entre 0 y -10ºC
+										Peso
+											150 gr
+										Condiciones de uso
+											Abre el envase i calientalo en el microondas a máxima potencia entre 1 y 2 minutos.
+										Condiciones de almacenamiento
+											Convervar entre 0 y 4ºC
+
+										Descripción
+
+										Rico plato nutritivo de garbanzos con espinacas. Los guisantes son una fuente de proteínas vegetales sin colesterol, que te proporcionarán toda la energía y fibra que necesitas. Las espinacas contienen hierro, vitaminas y minerales.
 										</p>
 								</div>
 							  </div>          
@@ -297,22 +373,21 @@
 								  <img class="activator" src="img/choco.jpg">
 								</div>
 								<div class="card-content">
-								  <span class="card-title activator grey-text text-darken-4">Crema chocolate<i class="material-icons right">more_vert</i></span>
+								  <span class="card-title activator grey-text text-darken-4">Natillas chocolate<i class="material-icons right">more_vert</i></span>
 								  <p><a href="#">This is a link</a></p>
 								</div>
 								<div class="card-reveal">
-								  <span class="card-title grey-text text-darken-4">Crema chocolate<i class="material-icons right">close</i></span>
+								  <span class="card-title grey-text text-darken-4">Natillas chocolate<i class="material-icons right">close</i></span>
 								  <p>
 
+										Peso
+											300 gr
+										Condiciones de uso
+											Abrir, dejar reposar 5 minutos y consumir.
+										Condiciones de almacenamiento
+											Convervar entre 0 y -10ºC
 
-									Peso
-										125 gr
-									Condiciones de uso
-										Abrir, dejar reposar 5 minutos y consumir.
-									Condiciones de almacenamiento
-										Convervar entre 0 y 4ºC
-
-									</p>
+										</p>
 								</div>
 							  </div>          
 						</div>
@@ -321,21 +396,20 @@
 					<div class="col s12 m6 l3">														
 							  <div class="card">
 								<div class="card-image waves-effect waves-block waves-light">
-								  <img class="activator" src="img/piña.jpg">
+								  <img class="activator" src="img/kitkat.jpg">
 								</div>
 								<div class="card-content">
-								  <span class="card-title activator grey-text text-darken-4">Piña<i class="material-icons right">more_vert</i></span>
+								  <span class="card-title activator grey-text text-darken-4">Kit Kat<i class="material-icons right">more_vert</i></span>
 								  <p><a href="#">This is a link</a></p>
 								</div>
 								<div class="card-reveal">
-								  <span class="card-title grey-text text-darken-4">Piña<i class="material-icons right">close</i></span>
+								  <span class="card-title grey-text text-darken-4">Kit Kat<i class="material-icons right">close</i></span>
 								  <p>
 
-
 										Peso
-											200 gr
+											35 gr
 										Condiciones de uso
-											Abrir, dejar reposar 5 minutos y consumir.
+											Abre el envase i calientalo en el microondas a máxima potencia entre 1 y 2 minutos.
 										Condiciones de almacenamiento
 											Convervar entre 0 y 4ºC
 
@@ -348,25 +422,27 @@
 					<div class="col s12 m6 l3">														
 							  <div class="card">
 								<div class="card-image waves-effect waves-block waves-light">
-								  <img class="activator" src="img/kitkat.jpg">
+								  <img class="activator" src="img/piña.jpg">
 								</div>
 								<div class="card-content">
-								  <span class="card-title activator grey-text text-darken-4">Kit Kat<i class="material-icons right">more_vert</i></span>
+								  <span class="card-title activator grey-text text-darken-4">Piña<i class="material-icons right">more_vert</i></span>
 								  <p><a href="#">This is a link</a></p>
 								</div>
 								<div class="card-reveal">
-								  <span class="card-title grey-text text-darken-4 ">Kit Kat<i class="material-icons right">close</i></span>
-								  <p class=" card-content card-title">
+								  <span class="card-title grey-text text-darken-4 ">Piña<i class="material-icons right">close</i></span>
+								  <p class="card-title" style="font-size:18px;">
+
+
 											Peso
-												19.6 gr
+												200 gr
 											Condiciones de uso
-												Abrir, dejar reposar 5 minutos y consumir.
+												Abre el envase i calientalo en el microondas a máxima potencia entre 1 y 2 minutos.
 											Condiciones de almacenamiento
 												Convervar entre 0 y 4ºC
 
 											Descripción
 
-											Tres finas capas de bizcocho enlazadas con capas de crema de chocolate nougat y crujientes trozos de barquillo. La capa superior de crema de chocolate nougat se encuentra decorada con una auténtica barrita Kit Kat.
+											Plato ideal para los amantes del salmón y los países nórdicos. El salmón aporta proteínas de alto valor biológico, y ácido graso omega-3. Junto con el brócoli y los espárragos, que proporcionan vitaminas y minerales, se equilibra el plato de una forma saludable.
 											</p>
 								</div>
 							  </div>          
@@ -374,6 +450,7 @@
 				</div>
 			
 				</section>
+			
 				
 				
 

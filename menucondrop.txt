@@ -1,0 +1,143 @@
+<div class="navbar-fixed" style="z-index:1000">
+				<nav>
+				  <div class="nav-wrapper blue lighten-1 ">
+					<!-- <a href="img/logo.png" class="brand-logo">TakeAway</a> -->
+					<img src="img/logo.png" alt="" class="circle responsive-img imagen "><span class="tit">TakeAway</span></img>
+						<Div style="float:right;">
+							<div class="dropdown" style="float:left;">							
+							  <button class="dropbtn">Inicio</button>
+							  <div class="dropdown-content">
+								<a href="#">Link 1</a>
+								<a href="#">Link 2</a>
+								<a href="#">Link 3</a>
+							  </div>
+							  </div>
+					  
+							  <div class="dropdown" style="float:rigt;">
+							  <button class="dropbtn">Fotos</button>
+							  <div class="dropdown-content">
+								<a href="#">Link 4</a>
+								<a href="#">Link 5</a>
+								<a href="#">Link 6</a>
+							  </div>
+							  </div>
+					  
+							  <div class="dropdown" style="float:right;">
+							  <button class="dropbtn">Servicios</button>
+							  <div class="dropdown-content">
+								<a href="#">Link 7</a>
+								<a href="#">Link 8</a>
+								<a href="#">Link 9</a>
+							  </div>
+							</div>
+						</Div>
+
+				  </div>
+				</nav>
+				
+			</div>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    /* right: 0; */
+    background-color: #f9f9f9;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    opacity: 1;
+
+}
+
+.dropdown-content a {
+    color: black;
+    /* padding: 6px 6px; */
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #448AFF }
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #448AFF ;
+}
